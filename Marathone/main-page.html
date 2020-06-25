@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathone</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>Marathone of change</h1>
+    </header>    
+    <div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <!--options_marathoner-->
+        <div>
+            <select placeholder="Marathoners">
+                <option></option>
+                <option>Magdara</option>
+                <option>Wardek</option>
+            </select>
+        </div>
+        <!--options_exersise-->
+        <div>
+                <select placeholder="Exersise">
+                    <option></option>
+                    <option>ex-1</option>
+                </select>
+        </div>
+        <!--field_amount-->
+        <div>
+            <p><iframe name="area" width="500" height="200"></iframe></p>
+            <form action="./PHP/post.php" target="area">
+            <p><input placeholder="Amount" name="number"></p>    
+        </div>
+        <!--button_add-->
+        <div>
+            <button>ADD</button>
+        </div>
+        <!--button_submit&clear-->
+        <div>
+            <p>
+                <input type="submit" value="Complete">
+                <input type="reset" value="Clear">
+            </p>
+        </div>
+        <!--TEST-->
+        <div>
+            
+        </div>
+    </div>
+</body>
+</html>
